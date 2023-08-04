@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *{
   margin: 0;
   padding: 0;
@@ -50,4 +50,77 @@ body {
   color: var(--red);
   border: 1px solid var(--gray);
   background: transparent;
+}
+
+.main__container{
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem 4rem;
+}
+
+input{
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+}
+
+.main__container .list__container li{
+  list-style-type: none;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #4f4f4f;
+  font-weight: 100;
+}
+
+.lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.cards__container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: black;
+  margin-top: 3rem;
+}
+
+.card{
+  padding: 2rem;
+  background: rgb(191, 187, 187);
+}
+
+img{
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  border-radius: 0.4rem;
+}
+
+.card h3{
+  margin-top: 1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.card .card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.card .card__info > h5 , span{
+  font-size: 1.3rem;
+  font-weight: 500;
+
+}
+
+@media screen and(max-width:1024px) {
+ .cards__container{
+  background-color: red;
+ }
 }
