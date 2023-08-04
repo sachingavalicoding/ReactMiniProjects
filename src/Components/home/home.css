@@ -1,0 +1,45 @@
+.home__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0rem 5rem;
+    margin-top: 7rem;
+    height: calc(100vh - 11rem);
+  
+}
+
+.main__content{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    animation: ani 1s linear infinite alternate ;
+}
+
+.main__content h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main__content p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+.main__content .main__content-btns{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.main__img img{
+    animation: ani 1s linear infinite alternate ;
+}
+
+
+@keyframes ani {
+    to{
+        transform: translateY(-10px);
+    }
+}

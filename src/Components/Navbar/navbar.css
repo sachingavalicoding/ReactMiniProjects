@@ -1,0 +1,32 @@
+.navbar__container{
+    width: 100%;
+    height: 4rem;
+    padding: 0rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__container h4{
+    color: var(--gray);
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 3px black;
+}
+
+nav{
+    display: flex;
+    gap: 2.3rem;
+}
+
+nav a{
+    color: var(--gray);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+nav a:hover{
+    color: var(--red);
+    
+}
